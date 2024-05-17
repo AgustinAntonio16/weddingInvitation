@@ -25,6 +25,7 @@
     "emoji-mart": "^5.2.1",
     "emoji-mart-picker": "^0.2.3",
     "file-saver": "^2.0.5",
+    "firebase": "^10.12.0",
     "gatsby": "^2.21.37",
     "gatsby-plugin-emotion": "^4.5.0",
     "gatsby-plugin-eslint": "^2.0.8",
@@ -50,9 +51,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }, 
+  },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   }
-
 }
