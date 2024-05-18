@@ -16,6 +16,7 @@ import ConfirmationSection from '@components/ConfirmationSection';
 import FooterSection from '@components/FooterSection';
 import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
+import FirebaseTest from '../components/FirebaseTest';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -56,6 +57,7 @@ function Home({ location }) {
 
   return (
     <MainLayout>
+      <FirebaseTest />
       <WelcomeSection
         guestName={guestName}
         isAnonymGuest={isAnonymGuest}
