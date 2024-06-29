@@ -2,7 +2,9 @@
  * Link
  */
 export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/event?action=TEMPLATE&dates=20220911T010000Z%2F20220911T080000Z&text=Arin+%26+Miftah+Wedding&details=Arin+%26+Miftah+Wedding`;
-export const GOOGLE_MAPS_LINK = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBH19XqT0KNKa5lIW5p1Kz0dYOrX7qG_TE&callback=console.debug&libraries=maps,marker&v=beta`;
+export const GOOGLE_MAPS_LINK_PARROQUIA = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBH19XqT0KNKa5lIW5p1Kz0dYOrX7qG_TE&callback=initMap&libraries=maps,marker&v=beta`;
+export const GOOGLE_MAPS_LINK_ACIENDA = `'https://maps.googleapis.com/maps/api/js?key=AIzaSyBH19XqT0KNKa5lIW5p1Kz0dYOrX7qG_TE&callback=console.debug&libraries=maps,marker&v=beta'`;
+
 
 /**
  * Wedding time
