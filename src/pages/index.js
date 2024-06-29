@@ -44,7 +44,7 @@ function Home({ location }) {
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
-        <CovidSection />
+        {/* <CovidSection /> */}
         <LocationSection />
         <StorySection />
         <PhotoSection />
@@ -57,7 +57,6 @@ function Home({ location }) {
 
   return (
     <MainLayout>
-      <FirebaseTest />
       <WelcomeSection
         guestName={guestName}
         isAnonymGuest={isAnonymGuest}

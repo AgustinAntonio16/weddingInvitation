@@ -3,6 +3,7 @@ import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
+import LogoWedding from '@assets/images/logoBoda.svg';
 import { GOOGLE_CALENDAR_LINK } from '@/constants';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
@@ -69,7 +70,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-              <img src={WeddingImg} alt="wedding-arin-miftah" />
+              <img src={LogoWedding} alt="wedding-arin-miftah" />
               <h4 className="sub-title">Nuestra boda</h4>
               <h1 className="title">Agustín &amp; Yazmin</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>

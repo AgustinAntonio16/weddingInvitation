@@ -13,24 +13,24 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
-              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
+              <span className="bismillah">Nosotros amamos porque él nos amó primero.</span>
+              <h2 className="main-font main-font__wedding">¡Celebremos juntos! Ceremonia religiosa y Celebración</h2>
+              <span className="sub-title sub-title__wedding">Con alegría, se llevará a cabo en:</span>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
             <WeddingInfoBox
-                title="Akad Nikah"
-                time="08.00 WIB"
-                date="Minggu, 11 September 2022"
-                description="Jl. Laswi Cangkring RT/RW 05/07 kel. Jelekong, kec. Baleendah, kab. Bandung"
+                title="Ceremonia religiosa"
+                time="16:00 CST"
+                date="Sábado 14 de diciembre de 2024"
+                description="20 de Noviemmbre S/N, Centro, 55789 Santa María Tonanitla, Méx."
             />
             <WeddingInfoBox
-              title="Syukuran Pernikahan"
-              time="11.00 s/d 15.00 WIB"
-              date="Minggu, 11 September 2022"
-              description="Jl. Laswi Cangkring RT/RW 05/07 kel. Jelekong, kec. Baleendah, kab. Bandung"
+              title="Celebración"
+              time="17:00 CST"
+              date="sábado 14 de diciembre de 2024"
+              description="Abundio Gómez S/N, La Urbana o La Chinampa, 55789 Santa María Tonanitla, Méx."
             />
             </div>
           </div>
